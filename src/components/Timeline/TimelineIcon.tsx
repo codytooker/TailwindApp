@@ -1,6 +1,6 @@
 export function TimelineIcon() {
     return (
-        <div className="timeline-middle">
+        <div className="timeline-middle text-sky-500">
             <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"

@@ -12,9 +12,9 @@ export function TimelineSegment({
 }: PropsWithChildren<TimelineSegmentProps>) {
     return (
         <li>
-            {!isFirst && <hr />}
+            {!isFirst && <hr className="bg-sky-700" />}
             {children}
-            {!isLast && <hr />}
+            {!isLast && <hr className="bg-sky-700" />}
         </li>
     );
 }

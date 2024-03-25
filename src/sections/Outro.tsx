@@ -4,20 +4,7 @@ import { Section } from "../components/Section";
 export function Outro() {
     return (
         <Section>
-            <div className="flex gap-4 items-center">
-                <div className="flex-shrink-0 flex flex-col gap-2 text-center">
-                    <img
-                        src="/headshot.png"
-                        alt="Cody Tooker"
-                        className="rounded-full size-48"
-                    />
-                    <div className="flex flex-col text-xs gap-2">
-                        <Link href="https://www.linkedin.com/in/cody-tooker/">
-                            LinkedIn
-                        </Link>
-                        <Link href="https://github.com/codytooker">Github</Link>
-                    </div>
-                </div>
+            <div className="flex flex-col md:flex-row-reverse gap-8 items-center">
                 <div className="space-y-4">
                     <h2 className="text-xl font-bold text-white">
                         Goodbye For Now 👋
@@ -47,6 +34,19 @@ export function Outro() {
                             fight you on that
                         </li>
                     </ul>
+                </div>
+                <div className="flex-shrink-0 flex gap-6 items-center justify-center md:gap-2 md:text-center md:flex-col">
+                    <img
+                        src="/headshot.png"
+                        alt="Cody Tooker"
+                        className="rounded-full size-32 md:size-48"
+                    />
+                    <div className="flex flex-col text-xs gap-2">
+                        <Link href="https://www.linkedin.com/in/cody-tooker/">
+                            LinkedIn
+                        </Link>
+                        <Link href="https://github.com/codytooker">Github</Link>
+                    </div>
                 </div>
             </div>
         </Section>

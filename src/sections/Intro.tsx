@@ -10,8 +10,8 @@ export function Intro() {
             <h1 className="text-2xl font-bold text-white">
                 Hey Tailwind Team 👋
             </h1>
-            <div className="flex items-center justify-between gap-4">
-                <p className="w-3/4">
+            <div className="md:flex items-center justify-between gap-4">
+                <p className="md:w-3/4">
                     Before we get started let's get this timezone issue out of
                     the way. I'm from Dallas Texas (CST). But if you think about
                     it, every timezone is between UTC-5 and UTC+1, it all just
@@ -26,7 +26,7 @@ export function Intro() {
                     So let's just agree that I'm in the right timezone and move
                     on. 😂
                 </p>
-                <div className="flex-shrink-0">
+                <div className="md:flex-shrink-0 flex justify-center mt-4 md:mt-0">
                     <Globe isReversed={isHovering} />
                 </div>
             </div>

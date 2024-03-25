@@ -14,7 +14,7 @@ export function Bio() {
             </p>
 
             <p>
-                After seeing the tweet about the job openeings I knew I had to
+                After seeing the tweet about the job openings I knew I had to
                 apply. Everything the team has created has been a complete game
                 changer for me and my team, and I would love to be a part of the
                 amazing work you all are doing.
@@ -22,7 +22,7 @@ export function Bio() {
 
             <h2 className="text-xl font-bold text-white">What do I do?</h2>
             <p>
-                My development jouney started just like may others, building
+                My development journey started just like many others, building
                 Wordpress sites for small businesses. During that time I learned
                 so much from following the Laravel ecosytem grow and with it
                 Tailwind. I was able to quickly integrate early versions of

@@ -46,6 +46,9 @@ export function Outro() {
                             LinkedIn
                         </Link>
                         <Link href="https://github.com/codytooker">Github</Link>
+                        <Link href="https://github.com/codytooker/TailwindApp">
+                            This App
+                        </Link>
                     </div>
                 </div>
             </div>
